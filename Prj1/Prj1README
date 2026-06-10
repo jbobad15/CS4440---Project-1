@@ -1,0 +1,46 @@
+Project 1 Submission README
+
+Submitted files:
+
+questions-1-10/01-system-calls-mycompress/MyCompress.c
+One sentence explanation:
+
+questions-1-10/02-decompress-mydecompress/MyDecompress.c
+One sentence explanation:
+
+questions-1-10/03-fork-compress/ForkCompress.c
+One sentence explanation:
+
+questions-1-10/04-pipe-compress/PipeCompress.c
+One sentence explanation:
+
+questions-1-10/05-parallel-fork/ParFork.c
+One sentence explanation:
+
+questions-1-10/06-mini-shell/MiniShell.c
+One sentence explanation:
+
+questions-1-10/07-more-shell/MoreShell.c
+One sentence explanation:
+
+questions-1-10/08-dup-shell/DupShell.c
+One sentence explanation:
+
+questions-1-10/09-parallel-thread/ParThread.c
+One sentence explanation:
+
+Makefile
+One sentence explanation:
+
+test-runs/typescript
+One sentence explanation:
+
+Timing comparison for problem #10:
+
+Sequential version time:
+
+Forked process version time:
+
+Pthread version time:
+
+Inference:
