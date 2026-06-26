@@ -3,16 +3,16 @@ Project 1 Submission README
 Submitted files:
 
 questions-1-10/01-system-calls-mycompress/MyCompress.c
-One sentence explanation:
+Compresses runs of bits from an input file using Unix file system calls and writes the encoded output file.
 
 questions-1-10/02-decompress-mydecompress/MyDecompress.c
-One sentence explanation:
+Decompresses the +N+ and -N- encoded bit runs back into the original bit file format.
 
 questions-1-10/03-fork-compress/ForkCompress.c
-One sentence explanation:
+Forks a child process and uses execl to run MyCompress, then waits for the compression process to finish.
 
 questions-1-10/04-pipe-compress/PipeCompress.c
-One sentence explanation:
+Uses two forked processes connected by a pipe so one reads the source file while the other compresses and writes the destination file.
 
 questions-1-10/05-parallel-fork/ParFork.c
 One sentence explanation:
