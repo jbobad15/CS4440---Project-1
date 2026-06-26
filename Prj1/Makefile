@@ -33,13 +33,13 @@ $(BIN_DIR)/ForkCompress: questions-1-10/03-fork-compress/ForkCompress.c | $(BIN_
 $(BIN_DIR)/PipeCompress: questions-1-10/04-pipe-compress/PipeCompress.c | $(BIN_DIR)
 	$(CC) $(CFLAGS) $< -o $@
 
-$(BIN_DIR)/ParFork: questions-1-10/05-parallel-fork/ParFork.c | $(BIN_DIR)
+$(BIN_DIR)/ParFork: ParFork.c | $(BIN_DIR)
 	$(CC) $(CFLAGS) $< -o $@
 
-$(BIN_DIR)/MiniShell: questions-1-10/06-mini-shell/MiniShell.c | $(BIN_DIR)
+$(BIN_DIR)/MiniShell: MiniShell.c | $(BIN_DIR)
 	$(CC) $(CFLAGS) $< -o $@
 
-$(BIN_DIR)/MoreShell: questions-1-10/07-more-shell/MoreShell.c | $(BIN_DIR)
+$(BIN_DIR)/MoreShell: MoreShell.c | $(BIN_DIR)
 	$(CC) $(CFLAGS) $< -o $@
 
 $(BIN_DIR)/DupShell: questions-1-10/08-dup-shell/DupShell.c | $(BIN_DIR)
