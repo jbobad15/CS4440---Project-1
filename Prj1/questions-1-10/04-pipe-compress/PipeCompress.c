@@ -1,3 +1,5 @@
+// PipeCompress.c - uses forked processes and a pipe to compress file data
+
 #include <errno.h>
 #include <fcntl.h>
 #include <stdio.h>

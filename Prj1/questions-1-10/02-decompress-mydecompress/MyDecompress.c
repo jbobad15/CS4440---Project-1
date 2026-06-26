@@ -1,3 +1,5 @@
+// MyDecompress.c - rebuilds the original bit file from +N+ and -N- compressed runs
+
 #include <ctype.h>
 #include <errno.h>
 #include <fcntl.h>

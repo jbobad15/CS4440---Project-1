@@ -1,3 +1,5 @@
+// ForkCompress.c - forks a child, runs MyCompress with execl, then waits for it
+
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>

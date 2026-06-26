@@ -1,3 +1,5 @@
+// MyCompress.c - compresses runs of 0s and 1s using Unix file system calls
+
 #include <errno.h>
 #include <fcntl.h>
 #include <stdio.h>

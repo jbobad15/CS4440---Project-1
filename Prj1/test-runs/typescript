@@ -1,0 +1,37 @@
+Project 1 test run record
+
+This file is the required single typescript location. Run these commands on a
+Linux machine with gcc, make, pthreads, fork, pipe, dup2, and /usr/bin/time
+available, then keep the terminal output here.
+
+Suggested commands:
+
+cd Prj1
+make clean
+make
+
+printf "11111111111111110000000000000000\n101010\n" > data/small.txt
+./bin/MyCompress data/small.txt data/small.comp
+./bin/MyDecompress data/small.comp data/small.out
+./bin/ForkCompress data/small.txt data/fork.comp
+./bin/PipeCompress data/small.txt data/pipe.comp
+./bin/ParFork data/small.txt data/parfork.comp 4
+./bin/ParThread data/small.txt data/parthread.comp 4
+
+printf "ls\nexit\n" | ./bin/MiniShell
+printf "ls -l data\nexit\n" | ./bin/MoreShell
+printf "ls -l | wc\nexit\n" | ./bin/DupShell
+
+sh questions-1-10/10-timing-comparison/run_times.sh
+
+Graceful error examples to record:
+
+./bin/MyCompress missing.txt data/out.txt
+./bin/MyDecompress missing.txt data/out.txt
+./bin/ForkCompress missing.txt data/out.txt
+./bin/PipeCompress missing.txt data/out.txt
+./bin/ParFork missing.txt data/out.txt 4
+./bin/ParThread missing.txt data/out.txt 4
+printf "not_a_real_command\nexit\n" | ./bin/MiniShell
+printf "not_a_real_command arg\nexit\n" | ./bin/MoreShell
+printf "not_a_real_command | wc\nexit\n" | ./bin/DupShell
