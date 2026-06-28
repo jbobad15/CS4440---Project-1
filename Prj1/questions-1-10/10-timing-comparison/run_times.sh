@@ -8,6 +8,7 @@ SEQ_OUT="data/question10-sequential-output.txt"
 FORK_OUT="data/question10-fork-output.txt"
 THREAD_OUT="data/question10-thread-output.txt"
 
+# Make sure old outputs do not get mixed with this timing run.
 mkdir -p data
 rm -f "$DATA_FILE" "$SEQ_OUT" "$FORK_OUT" "$THREAD_OUT"
 
@@ -30,3 +31,5 @@ printf "\nTiming pthread version: ParThread\n"
 
 printf "\nOutput files created:\n"
 ls -lh "$SEQ_OUT" "$FORK_OUT" "$THREAD_OUT"
+
+printf "\nCopy the real times above into Prj1README for question 10.\n"

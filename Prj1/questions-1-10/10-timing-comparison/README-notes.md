@@ -1,8 +1,11 @@
 Question 10 - Timing Comparison
 
 Purpose:
-Compare the running time of the sequential, forked process, and pthread
-compression programs on the same large input file.
+Compare the running time of the three compression programs:
+
+1. Sequential version: MyCompress
+2. Forked process version: ParFork
+3. Pthread version: ParThread
 
 How to run:
 

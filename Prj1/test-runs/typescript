@@ -1,12 +1,17 @@
-Project 1 test run record
+Project 1 test run record / capture checklist
 
-This file is the required single typescript location. Run these commands on a
-Linux machine with gcc, make, pthreads, fork, pipe, dup2, and /usr/bin/time
-available, then keep the terminal output here.
-
-Suggested commands:
+The assignment asks for one typescript file showing correct inputs and graceful
+error handling. On a Linux machine, create the real transcript by running:
 
 cd Prj1
+script -a test-runs/typescript
+
+Then run the commands below. When finished, type:
+
+exit
+
+Commands to record:
+
 make clean
 make
 
@@ -24,7 +29,7 @@ printf "ls -l | wc\nexit\n" | ./bin/DupShell
 
 sh questions-1-10/10-timing-comparison/run_times.sh
 
-Graceful error examples to record:
+Graceful error commands to record:
 
 ./bin/MyCompress missing.txt data/out.txt
 ./bin/MyDecompress missing.txt data/out.txt
